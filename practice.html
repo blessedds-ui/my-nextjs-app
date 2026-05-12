@@ -5,10 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="A simple practice page." />
     <title>Practice page</title>
+    <style>
+      .btn-get-started {
+        display: inline-block;
+        margin-top: 0.5rem;
+        padding: 0.65rem 1.35rem;
+        font-size: 1rem;
+        font-weight: 600;
+        font-family: system-ui, -apple-system, Segoe UI, sans-serif;
+        color: #fff;
+        background: #2563eb;
+        border: none;
+        border-radius: 0.5rem;
+        cursor: pointer;
+        box-shadow: 0 1px 2px rgb(0 0 0 / 0.08);
+      }
+        background: #1d4ed8;
+      }
+      .btn-get-started:active {
+        background: #1e40af;
+      }
+    </style>
   </head>
   <body>
     <h1>hello world</h1>
     <p>this is my page</p>
-    <button type="button">click</button>
+    <button type="button" class="btn-get-started">Get Started</button>
   </body>
 </html>
